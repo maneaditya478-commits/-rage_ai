@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (Strictly excluded - do not commit datasets)
+data/
+*.parquet
+*.csv
+*.tsv
+*.jsonl
+
+# Environments & virtualenvs
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+
+# Model checkpoints & cache
+models/
+*.pt
+*.bin
+*.onnx
+*.safetensors
+*.h5
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Antigravity / IDE artifacts
+.gemini/
+.idea/
+.vscode/
+
+# Keep reports json and figures
+!reports/*.json
+!reports/figures/*.png
+!reports/figures/*.jpg

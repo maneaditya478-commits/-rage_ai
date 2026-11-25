@@ -1,0 +1,35 @@
+{
+  "total_samples": 9792,
+  "strict_anger_count": 188,
+  "strict_anger_rate": 0.01919934640522876,
+  "dissatisfaction_count": 874,
+  "dissatisfaction_rate": 0.08925653594771242,
+  "batch_task_count": 967,
+  "batch_task_rate": 0.09875408496732026,
+  "repeat_prompt_count": 432,
+  "repeat_prompt_rate": 0.04411764705882353,
+  "by_model": {
+    "gpt_3.5_turbo": {
+      "n": 7659,
+      "strict_anger_rate": 0.018409714061887975,
+      "dissatisfaction_rate": 0.08395351873612743
+    },
+    "gpt_4": {
+      "n": 2133,
+      "strict_anger_rate": 0.02203469292076887,
+      "dissatisfaction_rate": 0.10829817158931083
+    }
+  },
+  "by_topic_shift": {
+    "with_topic_shift": {
+      "n": 4881,
+      "strict_anger_rate": 0.021921737348903913,
+      "dissatisfaction_rate": 0.05019463224749027
+    },
+    "without_topic_shift": {
+      "n": 4911,
+      "strict_anger_rate": 0.016493585827733658,
+      "dissatisfaction_rate": 0.12807982081042557
+    }
+  }
+}
